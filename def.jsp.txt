@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html style="background-color: black;">
+<head>
+    <title style="color: #ff9933;">Vulnérabilité CVE-2023-47246</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            color: #00ccff; /* bleu fluo */
+            font-family: 'Courier New', monospace;
+            border: 2px solid #ff3333; /* rouge */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 15px;
+        }
+        h1 {
+            color: #ff3333; /* rouge */
+            border-bottom: 2px solid #ff3333; /* rouge */
+            padding-bottom: 10px;
+        }
+        p {
+            color: yellow; /* jaune fluo */
+            margin-bottom: 15px;
+        }
+        .logo {
+            width: 200px; /* Ajustez la taille selon vos besoins */
+            height: auto; /* Ajustez la taille selon vos besoins */
+            border: 2px solid #00ccff; /* bleu fluo */
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body class="animate__fadeIn">
+    <center>
+        <img src="https://static.trkn.repl.co/cup.png" alt="Logo" class="logo animate__animated animate__bounceIn">
+        <h1>Exploitation de la Vulnérabilité CVE-2023-47246</h1>
+        <p>Ce serveur est vulnérable à la CVE-2023-47246.</p>
+        <p>La faille a été découverte par trhacknon.</p>
+        <img src="https://static.trkn.repl.co/uk.jpg" alt="Logo" class="logo animate__animated animate__bounceIn">
+        <p style="font-size: 20px; color: #ff3333;">[+] Vous êtes sur un serveur vulnérable [+]</p>
+    </center>
+</body>
+</html>
